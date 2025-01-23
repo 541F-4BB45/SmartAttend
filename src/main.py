@@ -33,6 +33,6 @@ def createClass(user_name: str, class_name: str, quantity: int) -> None:
         directories_path.mkdir(parents=True, exist_ok=True)
 
 
-def trainModel() -> None:
+def login(user_name: str, password: str) -> None:
 
     
